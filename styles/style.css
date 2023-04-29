@@ -363,17 +363,15 @@
   list-style: none;
   margin: 0px;
   padding-left: 0px;
+  color:#F2F2F2;
+  line-height: 1.15;
+  list-style: none;
 }
 
 .footer__social-icons {
   width: 16px;
   height: 16px;
   padding-right: 10px;
-}
-.footer__list{
-  color: #F2F2F2;
-  line-height: 1.15;
-  list-style: none;
 }
 
 /*Fim do footer*/
