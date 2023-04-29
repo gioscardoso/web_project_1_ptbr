@@ -280,7 +280,7 @@
   position: relative;
 }
 
-.kaufman__triangle {
+.kaufman-triangle {
   width: 660px;
   height: 636px;
   position: absolute;
@@ -288,7 +288,7 @@
   top: 0;
 }
 
-.kaufman. .table__cell_theme_dark{
+.kaufman .table__cell_theme_dark{
   position: relative;
 }
 /*Fim do Kaufman*/
@@ -304,27 +304,27 @@
   box-sizing: border-box;
   }
 
-.footercolumns {
+.footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
 }
 
-.footercolumn{
+.footer__column{
   display: flex;
   flex-direction: column;
 }
 
-.footercolumn_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
 
-.footercolumn_content_about {
+.footer__column_content_about {
   row-gap: 20px;
 }
 
-.footercolumn_content_social {
+.footer__column_content_social {
   row-gap: 20px;
 }
 
@@ -333,7 +333,7 @@
   height: 35px;
 }
 
-.footerauthor {
+.footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -341,7 +341,7 @@
   margin: 0;
 }
 
-.footercolumn-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -349,7 +349,7 @@
   margin: 0px;
 }
 
-.footercolumn_link {
+.footer__column_link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -359,13 +359,13 @@
   padding: 0px;
 }
 
-.footerlist {
+.footer__list {
   list-style: none;
   margin: 0px;
   padding-left: 0px;
 }
 
-.footersocial-icons {
+.footer__social-icons {
   width: 16px;
   height: 16px;
   padding-right: 10px;
