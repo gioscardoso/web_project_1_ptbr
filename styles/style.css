@@ -261,6 +261,7 @@
   flex-direction:column;
   align-items: center;
   position: relative;
+  color: #F2F2F2;
 }
 
 
@@ -286,16 +287,15 @@
 
 }
 
-.table__heading_theme_dark {
+.kaufman .table__text {
+  position: relative;
   color: #F2F2F2;
-  position: relative;
 }
 
-.table__text_theme_dark {
-  color: #f2f2f2;
+.kaufman .table__heading {
   position: relative;
+  color: #F2F2F2;
 }
-
 
 .kaufman__triangle {
   position: absolute;
