@@ -51,7 +51,7 @@
 }
 
 .header__link {
-  text-decoration: underline;
+  text-decoration: none;
   display: flex;
   color: #2F80ED;
 }
@@ -116,7 +116,7 @@
   font-weight: normal;
 }
 
-.span-accent {
+.two-columns_span-accent {
   font-weight: bold;
 }
 
@@ -186,15 +186,15 @@
 }
 
 .table_theme_dark {
-  padding-top: 60px;
-  row-gap: 10px;
+  padding-top: 80px;
+  row-gap: 80px;
 }
 .table__heading_theme_dark {
-  color: #000000;
+  color: #F2F2F2;
 }
 
 .table__text_theme_dark {
-  color: #1f1f1f;
+  color: #F2F2F2;
 }
 /*Fim do Digits*/
 
@@ -241,7 +241,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  text-decoration: underline;
+  text-decoration: none;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
@@ -254,47 +254,23 @@
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
-  z-index: 1;
   padding-top: 90px;
   padding-bottom: 90px;
   display: flex;
   flex-direction:column;
   align-items: center;
   position: relative;
-  color: #F2F2F2;
 }
 
 
 .section-title--theme-dark {
   color:#F2F2F2;
   z-index: 1;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
 }
 
 .section-subtitle--theme-dark {
   color: #f2f2f2;
   z-index: 1;
-  width: 60%;
-  margin-top: 20px;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.kaufman .table__text {
-  position: relative;
-  color: #F2F2F2;
-}
-
-.kaufman .table__heading {
-  position: relative;
-  color: #F2F2F2;
 }
 
 .kaufman__triangle {
@@ -303,6 +279,7 @@
   width: 660px;
   height: 636px;
   top: 0;
+
 }
 
 /*Fim do Kaufman*/
