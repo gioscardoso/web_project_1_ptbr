@@ -122,6 +122,75 @@
 
 /*Fim do description*/
 
+/*Começo do Techniques*/
+
+.techniques {
+  padding: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  max-width: 60%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  margin-top: 0;
+  max-width: 60%;
+  margin-bottom: 60px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.cards{
+  list-style-type: none;
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 60px;
+  margin: 0;
+}
+
+.cards__item{
+  width: 240px;
+  text-align: center;
+}
+
+.cards__image{
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  margin-bottom: 43px;
+}
+
+.cards__title{
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__text{
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/*Fim do Techniques*/
+
+
+
 /*Começo do digits*/
 
 .digits {
