@@ -472,14 +472,32 @@
   z-index: 1;
 }
 
+
 .kaufman__triangle {
   position: absolute;
   right: -124px;
   width: 660px;
   height: 636px;
   top: 0;
+  z-index: 0;
+  transform:rotate(-15deg)
 
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s infinite linear;
+}
+
 
 /*Fim do Kaufman*/
 
