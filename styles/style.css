@@ -74,6 +74,21 @@
   background-color: #2F80ED;
   z-index: 0;
   right: 0;
+  transform: rotate(-15deg);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s infinite linear;
 }
 
 /*Fim do Header*/
@@ -354,6 +369,84 @@
 }
 
 /*Fim do Feynman*/
+
+/*Começo do khan*/
+
+.khan {
+  background-color: #F2F2F2;
+  padding-top: 105px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.khan__container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  display: absolute;
+  z-index: 0;
+  background-image: url(./images/khan-book-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.khan__buy-link {
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2F80ED;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 68px 0;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin: 0 0 36px 0;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 50px 0;
+}
+
+/*Fim do khan*/
 
 /*Inico do Kaufman*/
 
